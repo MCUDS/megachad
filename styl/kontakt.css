@@ -1,0 +1,151 @@
+#container_kontakt{
+    min-height: 100vh;
+    padding: 20px 20px 40px ;
+    max-height: 100%;
+}
+
+.zawartosc_kontakt{
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    gap: 60px;
+}
+.tekst--tytul{
+    font-weight: 800;
+    font-size: 3rem;
+    text-align: center;
+    height: 20%;
+    margin: 40px 0 80px;
+    display: grid;
+}
+
+.maly--tekst{
+    font-size: 1rem;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #888;
+}
+
+.zawartosc-kontakt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.zawartosc--kontakt{
+    display: flex;
+    flex-direction: row!important;
+    align-items: center;
+    gap: 20px;
+    transition: all .2s ease-in-out;
+    position: relative;
+}
+.kopiowanny-tekst{
+    display: none;
+}
+.kopiowanie-komunikat {
+    display: none;
+    position: absolute;
+    top: -20px;
+    transform: translate(50%,0);
+    background-color: #4caf50;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.zawartosc--kontakt .tekst{
+    font-size: 21px;
+    font-weight: 800;
+}
+
+.zawartosc--kontakt .zawartosc--tekst{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    overflow: hidden;
+    width: 320px;
+}
+.tekst--alternatywny{
+    transform: translateY(30px);
+    text-align: start;
+    font-size: 20px;
+    padding: 10px 0;
+    position: absolute;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+.zawartosc--tekst:hover .tekst{
+    transform: translateY(-30px);
+}
+.zawartosc--tekst:hover .tekst--alternatywny{
+    transform: translateY(0px);
+}
+
+
+
+@media (min-width:200px) and (max-width:700px) {
+    #container_kontakt{
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+    }
+    .tekst--tytul{
+        font-size: 2rem;
+    }
+    .panel-formularz{
+        border-radius: 10px;
+    }
+    .panel--kontaktowy{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 150px;
+    }
+    .tytul--formularz{
+        font-size: 2rem;
+        margin: auto;
+    }
+    .tytul-zgloszenie{
+        font-size: 3rem;
+        color: #0d1215;
+    }
+    .zgloszenie--panel{
+        width: 100%;
+    }
+    .tytul-zgloszenie::after,.tytul-zgloszenie::before{
+        display: none;
+    }
+    .zgloszenie--ramka{
+        background-color: var(--kolor_strona);
+    }
+  
+    .wybierz-grupy input[type="radio"] + label{
+        line-height: 20px;
+        font-size: 20px;
+    }
+    .form-group input:focus ~ label,.form-group select:focus ~ label, .form-group input:not(:placeholder-shown) ~ label, .form-group select:not([value=""]) ~ label{
+        font-size: 12px!important;
+    }
+    .form-group label{
+        font-size: 12px;
+    }
+}
+
+
+@media (min-width:701px) and (max-width: 1200px){
+    /* formularz zgloszen */
+    .tytul-zgloszenie::before,.tytul-zgloszenie::after{
+        display: none;
+    }
+    .zgloszenie--content{
+        width: 100%;
+    }
+    .zgloszenie--panel{
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+    }
+}

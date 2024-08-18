@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: Lato ,sans-serif;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --kolor_strona:#fcfcfc;
+    --Kolor_tekstu: #0d1215;
+    --kolor_tekstu_na_ciemnnym:#e0e0e0;
+    --kolor_przycisku:#407e65;	
+    --kolor_przycisku_:#85b883;	
+    --Kolor_formularza:#f5f5d5;	
+    --kolor_akcentu:#e2c25f;	
+    --kolor_stopka:#407e65b1;	
+    --kolor_tekstu_stopka:#202122;
+    --kolor_pod_tekst_stopa:#353536f6;
+    --kolor_przecena:#e03232;
+    --kolor_cena:#8A0000;
+    --Kolor_nav:#fcfcfcad;
+    /* czcionka */
+    --cz-W-700: 5rem;font-weight: 700;
+    --cz-D-600: 3.6rem;font-weight: 600;
+    --cz-Z-500: 1.125rem;font-weight: 500;
+    --cz-Forma: 1rem;font-weight: 400;
+  
+    /* inne elementy */
+    --br-20: 20px;
+    --br-10: 10px;
+  }
+
+/* #zawartosc--cennik{
+    background-color: var(--Tło)!important;
+}
+.usluga{
+    background-color: var(--Kolor-główny)!important;
+}
+
+
+.zdjecie--tekst, .kategoria-tekst--srodek, .kategoria-tekst--zewnatrz{
+    color: var(--Tekst-główny)!important;
+}
+.nazwa{
+    color:var(--Tekst-podtytuł)!important;
+}
+.informacja{
+    color: var(--Tekst-treść)!important;
+}
+.cena,.cena--metry{
+    color: var(--Cena)!important;
+} */
+
+
+#zawartosc--cennik{
+    overflow: hidden;
+    background: linear-gradient(0deg, rgba(0 0 0 / 10%), rgb(0 0 0 /10%));
+}
+.zawartosc_usluga{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    gap: 40px;
+}
+.usluga{
+    box-shadow: 0px 0px 10px 1px rgba(30, 30, 30, .4);
+    padding: 20px;
+    border-radius: 20px;
+}
+/* animacje wejscia na ekran */
+.pokaz{
+    transition: all .6s ease-in-out;
+    opacity: .5;
+    animation-delay: 200ms;
+
+}
+.widze{
+    opacity: 1!important;
+    transform: translateX(0%)!important;
+    filter: blur(0px)!important;
+}
+.usluga:nth-child(2),.usluga:nth-child(4),.usluga:nth-child(6){
+    transform: translateX(-100px);
+}
+.usluga:nth-child(3),.usluga:nth-child(5),.usluga:nth-child(7){
+    transform: translateX(100px);
+
+}
+/* animacje przy pojawianiu sie na ekranie & kategoria cennik --zewnatrz --srodek */
+
+.kategoria-tekst--srodek, .kategoria-tekst--zewnatrz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 4rem;
+    padding: 40px 0;
+    position: relative;
+    transform: translateX(500px);
+    filter: blur(10px);
+    --szerokosc-paskow: 20%;
+    --stylizacja-paska: 2px solid black;
+}
+
+.kategoria-tekst--srodek::before, .kategoria-tekst--zewnatrz::before{
+    content: '';
+    transform-origin: left;
+    border: var(--stylizacja-paska);
+    width: var(--szerokosc-paskow);
+    margin-right: 10px;
+}
+.kategoria-tekst--srodek::after,.kategoria-tekst--zewnatrz::after{
+    content: '';
+    padding: 0 15px;
+    transform-origin: right;
+    border: var(--stylizacja-paska);
+    width: var(--szerokosc-paskow);
+    margin-left: 10px;
+
+}
+
+/* miejsce na wszsytkie zdjecia na stronie */
+.zdjecie{
+    width: calc(100% - 40%)!important;
+    margin:auto!important;
+    overflow: hidden!important;
+    border-radius: 10px!important;
+    padding: 0!important;
+    border: none!important;
+}
+.zawartosc-zdjece{
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.balkon{
+    background-image: url(../bank/dom/balkon-2.PNG);
+}
+
+.kostka{
+    background-image: url(../bank/dom/kostka-2.PNG);
+}
+.garaz{
+    background-image: url(../bank/dom/garaz.PNG);
+}
+.auto{
+    background-image: url(../bank/dom/auto-2.PNG);
+    background-position: bottom 30% center;
+}
+.kuchnia{
+    background-image: url(../bank/dom/kuchnia.PNG);
+}
+.salon{
+    background-image: url(../bank/dom/salon-3.PNG);
+}
+.sypialnia{
+    background-image: url(../bank/dom/sypialnia.PNG);
+}
+.lazienka{
+    background-image: url(../bank/dom/lazienka-2.PNG);
+    background-position: bottom 10% center;
+}
+
+/* miejsce na slajder z informacjami */
+.zdjecie--tekst{
+    flex-direction: column-reverse;
+    text-align: center;
+    color: var(--Kolor_tekstu);
+    display: flex;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 900;
+    height: 100%;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+
+.zawartosc-cennik{
+    width: 100%;
+    height: 300px;
+    column-gap: 20px;
+    grid-template-columns: repeat(10,1fr);
+    display: grid;
+    margin-top: 50px;
+    padding: 10px;
+    padding-left: 400px;
+    overflow: hidden;
+    align-items: center;
+    user-select: none;
+}
+.malo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    column-gap: 20px;
+    padding: 20px;
+}
+.malo > .usluga-informacje{
+    height: 250px;
+}
+.usluga-informacje{
+    display: grid;
+    grid-template-areas: 
+    'nazwa nazwa cena'
+    'opis opis opis ';
+    aspect-ratio: 2/1;
+    box-shadow: 0px 0px 10px 1px rgba(30, 30, 30, .4);
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+}
+.nazwa{
+    grid-area: nazwa;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.cena,.cena--metry{
+    grid-area: cena;
+    color: var(--kolor_cena);
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-align: end;
+}
+
+.cena::after{
+    content: 'zł';
+    margin-left: 5px;
+}
+.informacja{
+    grid-area: opis;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+}
+
+
+#stopka{
+    background-color: #23232423!important;
+}
+
+
+
+@media (min-width: 200px) and (max-width: 700px){
+    /* panel ofert */
+    .zawartosc_usluga{
+        margin: 0;
+    }
+    .usluga{
+        border-radius: 0;
+    }
+    .zawartosc-cennik{
+        height: 100%;
+        padding-left: 0;
+
+    }
+    .usluga-informacje{
+        width: 320px;
+        height: 320px;
+    }
+    .zdjecie{
+        width: 100%!important;
+        padding: 0;
+    }
+    .zdjecie--tekst{
+        font-size: 2.4rem;
+    }
+
+
+    .kategoria-tekst--srodek, .kategoria-tekst--zewnatrz{
+        font-size: 3rem;
+        transform: translateX(100px);
+    }    
+    .kategoria-tekst--srodek{
+        padding: 80px 0 40px 0;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 1200px){
+    .zdjecie{
+        width: 100%!important;
+    }
+    
+}

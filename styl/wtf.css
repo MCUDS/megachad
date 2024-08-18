@@ -1,0 +1,69 @@
+body{
+    background-color: burlywood;
+    width: 100%;
+    height: 100vh;
+}
+
+.tekst{
+    padding-top: 50px;
+}
+h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font: 2rem;
+    font-weight: 600;
+}
+svg{
+    overflow: visible;
+}
+#tlo{
+    background-size: 100%;
+    width: max(80%,100vw);
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    gap: 20px;
+}
+
+#dom,#parking{
+    filter: grayscale(.5);
+    transition: all .4s ease-in-out;
+}
+
+#dom:hover, #parking:hover{
+    transform: translateY(-20px);
+    filter: grayscale(0);
+}
+a:hover{
+    cursor: pointer;
+}
+
+.informacja--dom,.informacja--parking{
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: hsl(0, 0%, 85%);
+    padding:20px;
+    flex-direction: column;
+    display: flex;
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity .19s ease-out;
+}
+.informacja--dom p,.informacja--parking p{
+    font-size: 15px;
+    font-weight: 900;
+}
+.informacja--dom li,.informacja--parking li{
+    font-size: 15px;
+    margin: 5px;
+    font-weight: 700;
+}

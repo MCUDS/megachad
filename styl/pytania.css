@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+::selection {
+    background-color: rgba(0, 0, 255, 0.4);
+}
+.pytania--tekst{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.pytania--maly{
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgba(32, 30, 29, 0.8);
+    display: flex;
+    justify-content: center;
+}
+.pytania--maly a{
+ margin-left: 5px;
+}
+.tekst-btn{
+    width: 70%;
+    text-align: left;
+
+}
+.pytania{
+    max-height: 100%;
+    min-height: 100vh;
+    background-color: var(--kolor_strona);
+    padding:20px 20px 100px 20px;    
+    
+}
+.zawartosc_pytania--grid{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    column-gap:  20px;
+}
+.content_pytania{
+    font-size: 1.3rem;
+    margin-top: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px ;
+}
+.pytania--btn{
+    border:0;
+    background-color: var(--kolor_strona);
+    box-shadow: 0 0 0 .5px rgba(64, 126, 101, 0.694);
+    width: 100%;
+    border-radius: 5px;
+    padding: 20px;
+    cursor: pointer;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2rem;
+    font-weight: 600;
+    z-index: 2222;
+    transition: all .2s ease-in-out;
+}
+
+.content_pytania:hover .pytania--odpowiedz {
+    background-color: rgba(64, 126, 101, 0.2);
+
+}
+.content_pytania:hover .pytania--btn {
+    background-color: rgba(64, 126, 101, 0.2);
+}
+
+
+.pytania--odpowiedz{
+    transition: all .3s ease-in-out;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px ;
+    display: none;
+    padding: 20px;
+    /* ^^^ Nie animowane pokazywanie odpoiedzi na pytanie - js usunac komentarz z display. zamienic na komentarz height i padding*/
+    /* height: 0px; */
+    /* overflow: hidden; */
+    /* ^^^ Animowane pokazywanie odpowiedzi na pytanie - js usunac komentarz z height i padding. zamienic na komentarz display */
+}
+
+.btn--plus{
+    transition: all .2s ease-in-out;
+}
+
+
+@media (min-width:200px) and (max-width:700px) {
+    .pytania--tekst{
+        padding: 40px 0 80px;
+    }
+    .pytania--duzy{
+        font-size: 2.5rem!important;
+    }
+    
+   .pytania--maly{
+        font-size: 1rem;
+    }
+    .tekst-btn{
+        font-size: 1rem;
+        width:25ch;
+        letter-spacing: 1px;
+    }
+    .content_pytania span{
+        line-height: 1rem;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width:701px) and (max-width:1200px) {
+    .pytania--tekst{
+        padding: 40px 0 80px;
+    }
+    .pytania--duzy{
+        font-size: 4rem!important;
+    }
+    
+
+    .pytania--btn{
+        font-size: 1.5rem;
+    }
+}
