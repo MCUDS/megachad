@@ -1,0 +1,149 @@
+{
+    "Sedan": {
+        "Podstawowy Blask": {
+            "cena": "100 zł",
+            "opis": "Standardowe mycie ciśnieniowe nadwozia z użyciem wysokiej jakości szamponu samochodowego, ręczne osuszenie, czyszczenie szyb zewnętrznych i wewnętrznych, podstawowe odkurzanie wnętrza, w tym usuwanie kurzu z deski rozdzielczej i czyszczenie felg."
+        },
+        "Podstawowy Blask Plus": {
+            "cena": "130 zł",
+            "opis": "Rozszerzona wersja podstawowego mycia, obejmująca dodatkowe ręczne mycie szamponem, dokładniejsze czyszczenie wnętrza, w tym odkurzanie dywaników i foteli, oraz mycie felg."
+        },
+        "Komfortowy Sedan": {
+            "cena": "160 zł",
+            "opis": "Kompleksowe mycie nadwozia z użyciem ciśnienia i ręczne mycie szamponem, pełne czyszczenie szyb zewnętrznych i wewnętrznych, dokładne odkurzanie wnętrza, czyszczenie i pielęgnacja tapicerki materiałowej oraz dokładne mycie felg."
+        },
+        "Komfortowy Sedan Plus": {
+            "cena": "200 zł",
+            "opis": "Rozbudowany pakiet obejmujący wszystkie usługi z 'Komfortowego Sedana' plus dodatkowe zabezpieczenie lakieru woskiem oraz szczegółowe czyszczenie i pielęgnację felg i opon."
+        }
+    },
+    "Kombi": {
+        "Rodzinny Blask": {
+            "cena": "120 zł",
+            "opis": "Mycie ciśnieniowe nadwozia, ręczne mycie szamponem, czyszczenie szyb zewnętrznych i wewnętrznych, podstawowe odkurzanie wnętrza, w tym usuwanie kurzu z deski rozdzielczej oraz czyszczenie felg."
+        },
+        "Rodzinny Blask Plus": {
+            "cena": "150 zł",
+            "opis": "Rozszerzona wersja 'Rodzinnego Blasku', z dodatkowymi czynnościami takimi jak dokładniejsze odkurzanie wnętrza oraz czyszczenie tapicerki materiałowej. Dodatkowo, pielęgnacja felg i opon."
+        },
+        "Rodzinny Komfort": {
+            "cena": "190 zł",
+            "opis": "Kompleksowe mycie nadwozia, czyszczenie szyb, szczegółowe odkurzanie wnętrza, czyszczenie deski rozdzielczej, elementów plastikowych oraz tapicerki materiałowej. Dodatkowo, mycie i pielęgnacja felg i opon."
+        },
+        "Rodzinny Komfort Plus": {
+            "cena": "230 zł",
+            "opis": "Rozbudowany pakiet obejmujący wszystkie usługi z 'Rodzinnego Komfortu' plus zastosowanie ochrony woskiem na nadwoziu oraz dodatkowe czyszczenie wnętrza, w tym szczegółowe czyszczenie każdego zakamarka."
+        }
+    },
+    "Coupe": {
+        "Eleganckie Coupe": {
+            "cena": "130 zł",
+            "opis": "Mycie nadwozia ciśnieniowe i ręczne mycie szamponem, czyszczenie szyb zewnętrznych i wewnętrznych, podstawowe odkurzanie wnętrza oraz czyszczenie felg."
+        },
+        "Eleganckie Coupe Plus": {
+            "cena": "160 zł",
+            "opis": "Rozszerzenie 'Eleganckiego Coupe' o dokładniejsze czyszczenie wnętrza, w tym tapicerki materiałowej. Dodatkowo, mycie i pielęgnacja felg."
+        },
+        "Luksusowe Coupe": {
+            "cena": "200 zł",
+            "opis": "Pełne mycie nadwozia, czyszczenie szyb, kompleksowe odkurzanie wnętrza, pielęgnacja tapicerki materiałowej oraz felg. Dodatkowo, zabezpieczenie lakieru woskiem."
+        },
+        "Luksusowe Coupe Plus": {
+            "cena": "240 zł",
+            "opis": "Wszystkie usługi z 'Luksusowego Coupe' plus dodatkowe detailing wnętrza, obejmujące głębokie czyszczenie każdego zakamarka oraz szczegółowe czyszczenie i pielęgnację felg i opon."
+        }
+    },
+    "Cargo Van": {
+        "Cargo Pro": {
+            "cena": "140 zł",
+            "opis": "Mycie ciśnieniowe nadwozia, ręczne mycie szamponem, czyszczenie szyb zewnętrznych i wewnętrznych, podstawowe odkurzanie wnętrza, w tym przestrzeni ładunkowej oraz czyszczenie felg."
+        },
+        "Cargo Pro Plus": {
+            "cena": "170 zł",
+            "opis": "Rozszerzenie 'Cargo Pro' o dokładniejsze odkurzanie wnętrza, w tym przestrzeni ładunkowej oraz czyszczenie tapicerki materiałowej. Dodatkowo, mycie i pielęgnacja felg."
+        },
+        "Cargo Premium": {
+            "cena": "210 zł",
+            "opis": "Kompleksowe mycie nadwozia, czyszczenie szyb, dokładne odkurzanie wnętrza, czyszczenie deski rozdzielczej, tapicerki materiałowej oraz pielęgnacja felg i opon."
+        },
+        "Cargo Premium Plus": {
+            "cena": "250 zł",
+            "opis": "Rozbudowany pakiet obejmujący wszystkie usługi z 'Cargo Premium' plus zastosowanie ochrony woskiem na nadwoziu."
+        }
+    },
+    "Van": {
+        "Rodzinny Komfort": {
+            "cena": "150 zł",
+            "opis": "Mycie ciśnieniowe nadwozia, ręczne mycie szamponem, czyszczenie szyb zewnętrznych i wewnętrznych, odkurzanie wnętrza, w tym foteli i dywaników oraz czyszczenie felg."
+        },
+        "Rodzinny Komfort Plus": {
+            "cena": "180 zł",
+            "opis": "Rozszerzenie 'Rodzinnego Komfortu' o pielęgnację skórzanej tapicerki oraz dokładniejsze czyszczenie wnętrza i felg. Dodatkowo, zabezpieczenie lakieru woskiem."
+        },
+        "Luksusowy Van": {
+            "cena": "220 zł",
+            "opis": "Pełne mycie nadwozia, czyszczenie szyb, dokładne odkurzanie wnętrza, czyszczenie deski rozdzielczej, tapicerki oraz pielęgnacja felg i opon. Zabezpieczenie lakieru woskiem."
+        },
+        "Luksusowy Van Plus": {
+            "cena": "260 zł",
+            "opis": "Wszystkie usługi z 'Luksusowego Vana' plus szczegółowe czyszczenie wnętrza oraz ozonowanie wnętrza (usunięcie nieprzyjemnych zapachów i dezynfekcja)."
+        }
+    },
+    "Hatchback": {
+        "Komfortowy Hatchback": {
+            "cena": "110 zł",
+            "opis": "Mycie ciśnieniowe nadwozia, ręczne mycie szamponem, czyszczenie szyb zewnętrznych i wewnętrznych, podstawowe odkurzanie wnętrza oraz czyszczenie felg."
+        },
+        "Komfortowy Hatchback Plus": {
+            "cena": "140 zł",
+            "opis": "Rozszerzenie 'Komfortowego Hatchbacku' o dokładniejsze czyszczenie wnętrza oraz tapicerki materiałowej. Dodatkowo, mycie i pielęgnacja felg."
+        },
+        "Luksusowy Hatchback": {
+            "cena": "180 zł",
+            "opis": "Kompleksowe mycie nadwozia, czyszczenie szyb, dokładne odkurzanie wnętrza, czyszczenie tapicerki materiałowej oraz pielęgnacja felg. Dodatkowo, zabezpieczenie lakieru woskiem."
+        },
+        "Luksusowy Hatchback Plus": {
+            "cena": "220 zł",
+            "opis": "Wszystkie usługi z 'Luksusowego Hatchbacku' plus szczegółowe czyszczenie wnętrza i detailing każdego zakamarka."
+        }
+    },
+    "SUV": {
+        "Luksusowy SUV": {
+            "cena": "170 zł",
+            "opis": "Mycie ciśnieniowe nadwozia, ręczne mycie szamponem, czyszczenie szyb zewnętrznych i wewnętrznych, odkurzanie wnętrza oraz czyszczenie felg."
+        },
+        "Luksusowy SUV Plus": {
+            "cena": "200 zł",
+            "opis": "Rozszerzenie 'Luksusowego SUV' o pielęgnację tapicerki materiałowej oraz dodatkowe czyszczenie felg i opon. Zabezpieczenie lakieru woskiem."
+        },
+        "VIP SUV": {
+            "cena": "240 zł",
+            "opis": "Kompleksowe mycie nadwozia, czyszczenie szyb, dokładne odkurzanie wnętrza, czyszczenie tapicerki oraz felg, zabezpieczenie lakieru woskiem oraz detailing wnętrza."
+        },
+        "VIP SUV Plus": {
+            "cena": "280 zł",
+            "opis": "Wszystkie usługi z 'VIP SUV' plus ozonowanie wnętrza oraz powłoka ceramiczna na nadwoziu, oferująca długotrwałą ochronę lakieru."
+        }
+    },
+    "Wszystkie typy nadwozia": {
+        "VIP Detailing": {
+            "cena": "200 zł",
+            "opis": "Kompleksowe mycie ciśnieniowe i ręczne nadwozia, czyszczenie szyb, dokładne odkurzanie wnętrza, czyszczenie deski rozdzielczej, tapicerki materiałowej, pielęgnacja felg i opon oraz zabezpieczenie lakieru woskiem."
+        },
+        "VIP Detailing Plus": {
+            "cena": "250 zł",
+            "opis": "Rozszerzenie 'VIP Detailing' o detailing wnętrza, obejmujący głębokie czyszczenie każdego zakamarka oraz ozonowanie wnętrza (usunięcie nieprzyjemnych zapachów i dezynfekcja)."
+        },
+        "VIP Detailing Premium": {
+            "cena": "300 zł",
+            "opis": "Wszystkie usługi z 'VIP Detailing Plus' plus dodatkowe zabezpieczenie lakieru powłoką ceramiczną, oferującą długotrwałą ochronę."
+        },
+        "VIP Detailing Premium Plus": {
+            "cena": "350 zł",
+            "opis": "Kompleksowy pakiet obejmujący wszystkie usługi z 'VIP Detailing Premium' oraz dodatkowe szczegółowe czyszczenie i pielęgnację wnętrza oraz felg, gwarantujące najwyższy poziom detailingowy."
+        }
+    }
+}
+
+
+
