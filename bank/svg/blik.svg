@@ -1,0 +1,38 @@
+<svg height="50" viewBox="0 0 105.67 50" width="105.67" xmlns="http://www.w3.org/2000/svg" id="blik" >
+	<linearGradient id="a" gradientUnits="objectBoundingBox" x1=".5" x2=".5" y1=".993" y2=".004">
+		<stop offset="0" stop-color="#5a5a5a"/>
+		<stop offset=".146" stop-color="#484848"/>
+		<stop offset=".52" stop-color="#212121"/>
+	<stop offset=".817" stop-color="#080808"/>
+		<stop offset="1"/>
+	</linearGradient>
+	<linearGradient id="b" gradientUnits="objectBoundingBox" x1=".147" x2=".854" y1=".146" y2=".854">
+		<stop offset="0" stop-color="#e52f08"/>
+		<stop offset="1" stop-color="#e94f96"/>
+	</linearGradient>
+	<filter id="c" filterUnits="userSpaceOnUse" height="40.224" width="27.397" x="67.969" y="7.846">
+		<feOffset dx="2.379" dy="2.973"/>
+		<feGaussianBlur result="blur" stdDeviation=".743"/>
+		<feFlood flood-opacity=".949"/>
+		<feComposite in2="blur" operator="in"/>
+		<feComposite in="SourceGraphic"/>
+	</filter>
+	<path d="m147.714 48.266h-93.339a6.169 6.169 0 0 0 -6.165 6.16v37.681a6.17 6.17 0 0 0 6.165 6.159h93.339a6.17 6.17 0 0 0 6.166-6.159v-37.681a6.17 6.17 0 0 0 -6.166-6.16z" fill="#fff" transform="translate(-48.21 -48.266)"/>
+	<path d="m148.381 49.579h-93.338a5.518 5.518 0 0 0 -5.521 5.515v37.681a5.517 5.517 0 0 0 5.521 5.514h93.338a5.517 5.517 0 0 0 5.52-5.514v-37.681a5.518 5.518 0 0 0 -5.52-5.515z" fill="url(#a)" transform="translate(-48.878 -48.934)"/>
+	<g transform="translate(15.781 5.232)">
+		<image height="41.712" opacity=".95" width="50.196"/>
+	<g fill="#fff">
+			<circle cx="5.523" cy="5.523" r="5.523" transform="matrix(.00649258 -.99997892 .99997892 .00649258 13.474 11.852)"/>
+			<path d="m28.896 2.614h6.173v35.021h-6.173z"/>
+			<path d="m40.546 14.694h6.173v22.941h-6.173z"/>
+			<path d="m94.37 76.1a11.663 11.663 0 0 0 -5.538 1.389v-13.245h-6.174v23.556a11.71 11.71 0 1 0 11.712-11.7zm0 17.341a5.635 5.635 0 1 1 5.635-5.635 5.634 5.634 0 0 1 -5.635 5.633z" transform="translate(-81.524 -61.63)"/>
+		</g>
+			<circle cx="5.523" cy="5.523" fill="url(#b)" r="5.523" transform="matrix(.00649258 -.99997892 .99997892 .00649258 13.474 11.852)"/>
+			<path d="m28.896 2.614h6.173v35.021h-6.173z" fill="#fff"/>
+			<path d="m40.546 14.694h6.173v22.941h-6.173z" fill="#fff"/>
+			<path d="m94.37 76.1a11.663 11.663 0 0 0 -5.538 1.389v-13.245h-6.174v23.556a11.71 11.71 0 1 0 11.712-11.7zm0 17.341a5.635 5.635 0 1 1 5.635-5.635 5.634 5.634 0 0 1 -5.635 5.633z" fill="#fff" transform="translate(-81.524 -61.63)"/>
+		</g>
+		<g filter="url(#c)" transform="translate(.004 .005)">
+			<path d="m201.489 99.266h7.955l-9.558-12.337 8.663-10.6h-7.212l-8.507 10.665v-22.75h-6.174v35.022h6.174v-12.241z" fill="#fff" transform="translate(-118.69 -56.4)"/>
+		</g>
+</svg>
