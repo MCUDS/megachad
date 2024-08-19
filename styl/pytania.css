@@ -21,6 +21,7 @@
     color: rgba(32, 30, 29, 0.8);
     display: flex;
     justify-content: center;
+    tekst-align: center;
 }
 .pytania--maly a{
  margin-left: 5px;
